@@ -84,7 +84,7 @@ let imgArrayOfObject=[{
 },
 {
     id:'2011',
-    img:['/newArrivalImages/img20.jpeg','img21a.jpeg','img21b.jpeg','img21c.jpeg','img21d.jpeg','img17e.jpeg','img17f.jpeg'],
+    img:['/newArrivalImages/img20.jpeg','img20a.jpeg','img20b.jpeg','img20c.jpeg','img20d.jpeg','img20e.jpeg','img20f.jpeg'],
     heatTag:'New Arrival',
     brand:'TOMS',
     productTitle:'ESPADRILLE ALPARGATA "BLACK SLUBBY"',
@@ -92,7 +92,7 @@ let imgArrayOfObject=[{
 },
 {
     id:'2012',
-    img:['/newArrivalImages/img22.jpeg','img23a.jpeg','img23b.jpeg','img23c.jpeg','img23d.jpeg','img23e.jpeg','img23f.jpeg'],
+    img:['/newArrivalImages/img22.jpeg','img22a.jpeg','img22b.jpeg','img22c.jpeg','img22d.jpeg','img22e.jpeg','img22f.jpeg'],
     heatTag:'New Arrival',
     brand:'TOMS',
     productTitle:'ESPADRILLE ALPARAGATA "NAVY MARINA"',
@@ -100,7 +100,7 @@ let imgArrayOfObject=[{
 },
 {
     id:'2013',
-    img:['/newArrivalImages/img24.jpeg','img25a.jpeg','img25b.jpeg','img23c.jpeg','img23d.jpeg','img23e.jpeg','img23f.jpeg'],
+    img:['/newArrivalImages/img24.jpeg','img24a.jpeg','img24b.jpeg','img24c.jpeg','img24d.jpeg','img24e.jpeg','img24f.jpeg'],
     heatTag:'New Arrival',
     brand:'Toms',
     productTitle:'ALPARAGATA HERITAGE CANVAS "NATURAL/PEACH"',
@@ -116,7 +116,7 @@ let imgArrayOfObject=[{
 },
 {
     id:'2015',
-    img:['/newArrivalImages/img28.jpeg','img29a.jpeg','img29b.jpeg','img29c.jpeg','img29d.jpeg','img29e.jpeg','img29f.jpeg'],
+    img:['/newArrivalImages/img28.jpeg','img28a.jpeg','img28b.jpeg','img28c.jpeg','img28d.jpeg','img28e.jpeg','img28f.jpeg'],
     heatTag:'New Arrival',
     brand:'Toms',
     productTitle:' WMNS ESPADRILLE PARGATA "VANTABLACK" ',
@@ -124,7 +124,7 @@ let imgArrayOfObject=[{
 },
 {
     id:'2016',
-    img:['img31.jpeg','img31a.jpeg','img31b.jpeg','img31c.jpeg','img31d.jpeg','img31e.jpeg','img31f.jpeg'],
+    img:['/newArrivalImages/img31.jpeg','img31a.jpeg','img31b.jpeg','img31c.jpeg','img31d.jpeg','img31e.jpeg','img31f.jpeg'],
     heatTag:'New Arrival',
     brand:'New Balance',
     productTitle:'TWIN CITY 57/40 "WHITE"',
@@ -132,7 +132,7 @@ let imgArrayOfObject=[{
 },
 {
     id:'2017',
-    img:['/newArrivalImages/img31.jpeg','img33a.jpeg','img33b.jpeg','img33c.jpeg','img33d.jpeg','img33e.jpeg','img33f.jpeg'],
+    img:['/newArrivalImages/img33.jpeg','img33a.jpeg','img33b.jpeg','img33c.jpeg','img33d.jpeg','img33e.jpeg','img33f.jpeg'],
     heatTag:'New Arrival',
     brand:'Adidas Originals',
     productTitle:'ADIDAS ADVENTURE CARGO SHORTS "BLACK"',
@@ -140,7 +140,7 @@ let imgArrayOfObject=[{
 },
 {
     id:'2018',
-    img:['/newArrivalImages/img36.jpeg','img35a.jpeg','img35b.jpeg','img35c.jpeg','img35d.jpeg','img35e.jpeg','img35f.jpeg'],
+    img:['/newArrivalImages/img36.jpeg','img36a.jpeg','img36b.jpeg','img36c.jpeg','img36d.jpeg','img36e.jpeg','img36f.jpeg'],
     heatTag:'New Arrival',
     brand:'adidas originals',
     productTitle:'FORUM MID PATCHWORK',
@@ -201,7 +201,7 @@ let imgArrayOfObject=[{
  function renderProducts(){
     imgArrayOfObject.forEach((product)=>{
         shoppingCards.innerHTML+=` <div class="item">
-        <img src=${product.img[0]} alt="">
+        <img id=${product.id} src=${product.img[0]} alt="">
         <div class="details">
             <div class="heat-tag">${product.heatTag}</div>
             <small class="brand">${product.brand}</small>
