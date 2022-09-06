@@ -201,7 +201,7 @@ let imgArrayOfObject=[{
  function renderProducts(){
     imgArrayOfObject.forEach((product)=>{
         shoppingCards.innerHTML+=` <div class="item">
-        <img id=${product.id} src=${product.img[0]} alt="">
+       <a> <img id=${product.id} src=${product.img[0]} alt=""></a>
         <div class="details">
             <div class="heat-tag">${product.heatTag}</div>
             <small class="brand">${product.brand}</small>
