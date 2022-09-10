@@ -197,6 +197,7 @@ li{
 
 .click{
   position: relative;
+
 }
 .overlay {
   position: absolute;
@@ -222,5 +223,11 @@ img .click:hover{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.details a{
+  color: black;
+}
+div .details{
+  width: 450px;
 }
 /* ------------media query--------- */
